@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Calorie Counter</string>
+    <string name="de">Dessert</string>
+    <string name="b">Breakfast</string>
+    <string name="l">Lunch</string>
+    <string name="di">Dinner</string>
+    <string name="dr">Drink</string>
+    <string name="s">Snack</string>
+    <string name="f">Fruit</string>
+</resources>
