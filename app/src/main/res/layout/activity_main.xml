@@ -8,10 +8,36 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="394dp"
+        android:layout_height="556dp"
+        android:layout_marginBottom="100dp"
+        android:background="@color/colorPrimary"
         android:padding="4dp"
-        android:scrollbars="vertical"
-        android:background="@color/cardview_light_background"/>
+        android:scrollbars="vertical" />
+
+    <Button
+        android:id="@+id/btnGo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="56dp"
+        android:layout_marginRight="56dp"
+        android:layout_marginBottom="25dp"
+        android:onClick="go"
+        android:text="@string/totalcaloriecount" />
+
+    <Button
+        android:id="@+id/btnRemove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="284dp"
+        android:layout_marginRight="284dp"
+        android:layout_marginBottom="25dp"
+        android:text="@string/home" />
 
 </RelativeLayout>
