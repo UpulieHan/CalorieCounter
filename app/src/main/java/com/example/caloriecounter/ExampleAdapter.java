@@ -34,7 +34,7 @@ public class ExampleAdapter extends RecyclerView.Adapter<ExampleAdapter.ExampleV
         public ImageView mImageView;
         public TextView mTextView1;
         public TextView mTextView2;
-
+        public TextView mTextView3;
 
         public ExampleViewHolder(@NonNull View itemView, final OnItemClickListener listener) {
             super(itemView);
@@ -42,6 +42,7 @@ public class ExampleAdapter extends RecyclerView.Adapter<ExampleAdapter.ExampleV
             mImageView=itemView.findViewById(R.id.imageview1);
             mTextView1=itemView.findViewById(R.id.textview1);
             mTextView2=itemView.findViewById(R.id.textview2);
+            mTextView3=itemView.findViewById(R.id.textview3);
 
             //position of the clicked item is passed
             itemView.setOnClickListener(new View.OnClickListener() {
@@ -84,6 +85,7 @@ public class ExampleAdapter extends RecyclerView.Adapter<ExampleAdapter.ExampleV
         holder.mImageView.setImageResource(currentItem.getmImageResource());
         holder.mTextView1.setText(currentItem.getmText1());
         holder.mTextView2.setText(currentItem.getmText2());
+        holder.mTextView3.setText(currentItem.getmText3());
 
     }
 
